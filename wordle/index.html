@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Games - Wordle</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="home-button-container">
+        <a href="../index.html" class="button">Return to Home</a>
+    </div>
+    <div class="container">
+        <div class="title">Wordle Game</div>
+        <input type="text" id="guessInput" placeholder="Enter your guess" maxlength="5">
+        <button class="button" id="makeGuess" onclick="makeGuess()">Submit Guess</button>
+        <button class="button" onclick="resetGame()">Reset Game</button>
+        <div id="feedback"></div>
+        <div id="attemptsLeft"></div>
+        <div id="guessedWords"></div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>

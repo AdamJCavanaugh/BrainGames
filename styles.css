@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.button {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: none; /* Don't underline the links*/
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 4px; /* Curve the corners a touch */
+    width: 100px;
+    height: 100px;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    border: 1px solid black; /* Add a border for visibility */
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.tiles {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tile {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.tile:hover {
+    transform: scale(1.05);
+}
+
+.tile img {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    display: block;
+}

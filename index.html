@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Games</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Brain Games</div>
+        <div class="tiles">
+            <a href="/wordle/index.html" class="button">Wordle</a>
+        </div>
+    </div>
+
+    <script>
+        function openGame(game) {
+            if (game === 'wordle') {
+                window.location.href = '/wordle/index.html';
+            }
+        }
+    </script>
+</body>
+</html>
