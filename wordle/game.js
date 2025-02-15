@@ -8,6 +8,7 @@ class Game {
 
     startGame() {
         this.currentWord = WordChecker.giveNewWord()
+        //TODO remove eventually
         console.log(this.currentWord)
         this.currentAttempts = 0;
         this.guessedWords = [];
